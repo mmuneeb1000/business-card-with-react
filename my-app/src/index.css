@@ -28,14 +28,6 @@ h3 {
 p {
   line-height: 1.5;
 }
-a {
-  color: #1e1f26;
-  &:hover,
-  &:active,
-  &:focus {
-    color: darkblue;
-  }
-}
 
 .about-section,
 .interest-section {
@@ -50,14 +42,20 @@ a {
   background-color: #161619;
   width: 100%;
   text-align: center;
-  padding: 30px 0;
+  padding: 24px 0;
 }
 .footer-link > i {
-  font-size: 21px;
+  font-size: 20px;
   background-color: grey;
-  margin: 0 10px;
-  padding: 4px;
+  border-radius: 6px;
+  margin: 0 12px;
+  padding: 8px;
   cursor: pointer;
+  color: #1e1f26;
+  &:hover {
+    color: grey;
+    background-color: #1e1f26;
+  }
 }
 .container {
   display: flex;
@@ -91,13 +89,18 @@ a {
   align-items: center;
   color: #1e1f26;
   text-decoration: none;
-  padding: 12px 0;
+  padding: 10px 0;
   width: 120px;
   text-align: center;
   background-color: white;
   border-radius: 10px;
   gap: 4px;
   font-size: 14px;
+
+  &:hover {
+    background-color: #1e1f26;
+    color: white;
+  }
 }
 
 .linkedin-btn {
@@ -108,5 +111,8 @@ a {
   font-size: 10px;
   text-decoration: none;
   color: white;
-  margin: 10px 0px;
+  margin: 6px 0px 10px 0px;
+  &:hover {
+    color: #f3bf99;
+  }
 }

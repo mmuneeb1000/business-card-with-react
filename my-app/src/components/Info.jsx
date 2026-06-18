@@ -4,7 +4,7 @@ export default function Info() {
       <img src="/src/images/profile-id.jpg" />
       <h1>M. Muneeb</h1>
       <h3>Frontend Developer</h3>
-      <a className="website-link" href="#">
+      <a className="website-link" href="https://www.webdevpk.store">
         muneeb.website
       </a>
       <div className="button-container">
