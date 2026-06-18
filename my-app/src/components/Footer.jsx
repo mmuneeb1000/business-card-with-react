@@ -1,18 +1,18 @@
 export default function Footer() {
   return (
     <footer className="footer-section">
-      <span>
+      <a>
         <i class="fa-brands fa-x-twitter"></i>
-      </span>
-      <span>
+      </a>
+      <a>
         <i class="fa-brands fa-instagram"></i>
-      </span>
-      <span>
+      </a>
+      <a>
         <i class="fa-brands fa-facebook-f"></i>
-      </span>
-      <span>
+      </a>
+      <a>
         <i class="fa-brands fa-github-alt"></i>
-      </span>
+      </a>
     </footer>
   );
 }
