@@ -1,7 +1,9 @@
+import profile from "./src/images/profile-id.jpg";
+
 export default function Info() {
   return (
     <section className="head-section">
-      <img src="./src/images/profile-id.jpg" />
+      <img src="{profile}" />
       <h1>M. Muneeb</h1>
       <h3>Frontend Developer</h3>
       <a className="website-link" href="https://www.webdevpk.store">
