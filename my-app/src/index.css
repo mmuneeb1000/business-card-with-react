@@ -28,6 +28,14 @@ h3 {
 p {
   line-height: 1.5;
 }
+a {
+  color: #1e1f26;
+  &:hover,
+  &:active,
+  &:focus {
+    color: darkblue;
+  }
+}
 
 .about-section,
 .interest-section {

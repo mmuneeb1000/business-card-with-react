@@ -8,10 +8,20 @@ export default function Info() {
         muneeb.website
       </a>
       <div className="button-container">
-        <a className="email-btn" href="#">
+        <a
+          className="email-btn"
+          href="mailto:muneebhashmi8@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i class="fa-solid fa-at"></i>Email
         </a>
-        <a className="linkedin-btn" href="#">
+        <a
+          className="linkedin-btn"
+          href="https://www.linkedin.com/in/m-muneeb-a9984633b/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i class="fa-brands fa-linkedin-in"></i>Linkedin
         </a>
       </div>
