@@ -55,6 +55,7 @@ p {
   &:hover {
     color: grey;
     background-color: #1e1f26;
+    transition: 0.3s ease;
   }
 }
 .container {
@@ -100,6 +101,7 @@ p {
   &:hover {
     background-color: #1e1f26;
     color: white;
+    transition: 0.3s ease;
   }
 }
 
@@ -114,5 +116,7 @@ p {
   margin: 6px 0px 10px 0px;
   &:hover {
     color: #f3bf99;
+    text-decoration: underline;
+    transition: 0.3s ease;
   }
 }
