@@ -42,7 +42,7 @@ p {
   background-color: #161619;
   width: 100%;
   text-align: center;
-  padding: 24px 0;
+  padding: 12px 0;
 }
 .footer-link > i {
   font-size: 20px;
@@ -64,6 +64,7 @@ p {
   align-items: center;
   flex-direction: column;
   background-color: #1a1b21;
+  border-radius: 8px;
 }
 
 .head-section {
